@@ -1,0 +1,106 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3em;
+}
+header{
+    text-align: center;
+    padding: 50px ;
+    padding-bottom: 50px;
+    
+}
+footer{
+    color: white;
+    padding: 20px 100px;
+}
+.main{
+    color: white;
+}
+.about {
+    text-align: center;
+    padding: 20px 20px;
+}
+.about-text {
+    color: white;
+    text-align: justify;
+    font-size: 1rem;
+}
+.article {
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.list-articles{
+    color: white;
+    text-align: left;
+}
+.inicialy{
+    color: white;
+}
+.time{
+    color: white;
+}
+h3{
+    color: white;
+    text-align: left;
+}
+.link {
+    color: #977e7e;
+}
+.link:hover {
+    color: #a31515;
+  }
+.link:focus  {
+    color: #00e48c;
+    border: 1px solid blue;
+}
+.main-menu li{
+    display: inline-block;
+    margin: 0px,70px;
+}
+.link1:hover{
+    color:aqua
+}
+.link1:focus{
+    color:#26e400c7;
+    border: 3px solid goldenrod;
+}
+.link1{
+    color: #977e7e;
+}
+.before::after {
+    content: "-Важно! ";
+    color:coral;
+    background-color: #a31515;  
+}
+.zadanie6{
+    letter-spacing: 7px;
+}
+.zadanie7:lang(ru){
+    color: blue;
+}
+a .zadanie8{
+    border: 7px solid rgb(255, 255, 255);
+}
+.zadanie6+img{
+    margin-bottom: 20px;
+}
+table{
+    background-color:aliceblue;
+}
+tr:nth-child(3){
+    color: #00e48c;
+}
+th{
+    background: rgb(111, 111, 173);
+}
+tr:nth-child(even){
+    background-color:#6b425b;
+    }
